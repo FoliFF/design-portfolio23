@@ -1,5 +1,5 @@
 ---
-Logo: image/logoFoliFF-removebg.png
+Logo: image/logoFoliFF-removebg.png?w=100
 Tagline: Olof Janssons Portfolio.
 Social:
     - title: Link till sidans github repo.
