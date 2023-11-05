@@ -69,8 +69,8 @@ body {
     justify-content: space-between;
     border-top: 5px solid goldenrod;
     background-color: darkred;
-    color: #444;
-    padding: 20px 0;
+    color: #fff; 
+    padding: 20px 0
 }
 
 .footer a {
@@ -106,8 +106,7 @@ img {
     max-width: 100%;
 }
 
-/* Media Queeries */
-
+/* Media Queries */
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
