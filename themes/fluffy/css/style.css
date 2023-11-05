@@ -69,8 +69,8 @@ body {
     justify-content: space-between;
     border-top: 5px solid goldenrod;
     background-color: darkred;
-    color: #fff; /* White text color */
-    padding: 20px 0
+    color: #ccc;
+    padding: 20px 0;
 }
 
 .footer a {
