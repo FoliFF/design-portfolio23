@@ -44,7 +44,7 @@ body {
 
 .header {
     background-color: #f5f5f5; /* Light gray background */
-    border-bottom: 10px solid goldenrod; /* Thick black bottom border */
+    border-bottom: 5px solid goldenrod; /* Thick black bottom border */
     padding: 20px 0;
 }
 
@@ -52,18 +52,6 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
-}
-
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
-    .logo {
-        max-width: 30%;
-    }
 }
 
 .title * {
@@ -80,7 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 5px solid goldenrod;
-    background-color: #d00; /* Bold red background */
+    background-color: darkred;
     color: #fff; /* White text color */
     padding: 20px 0
 }
@@ -100,7 +88,7 @@ body {
     line-height: 1.5rem;
     color: #444;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #ccc;
 }
 
 p, td, th, li, dd {
@@ -116,6 +104,20 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+/* Media Queeries */
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
