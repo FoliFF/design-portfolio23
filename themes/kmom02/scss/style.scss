@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -14,5 +15,10 @@ body {
 }
 
 * {
+    font-family: 'Oswald', sans-serif;
     color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair', sans-serif;
 }
