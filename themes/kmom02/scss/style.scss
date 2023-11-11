@@ -32,6 +32,8 @@ body {
     text-align: center;
     background-color: $background-color; 
     padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 // Header styles
@@ -89,9 +91,11 @@ img {
     .title, .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
+
     .logo {
         max-width: 30%;
     }
