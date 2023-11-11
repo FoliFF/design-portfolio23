@@ -22,9 +22,3 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair', sans-serif;
 }
-
-button {
-    -webkit-appearance: none; // For WebKit browsers like Chrome and Safari
-    -moz-appearance: none;    // For older Firefox browsers
-    appearance: none;         // The standard property
-  }
