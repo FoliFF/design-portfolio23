@@ -4,22 +4,99 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables'; 
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Reset and Basic Styles
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    color: $font-color;
+}
+
+// Layout and Structure
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    background-color: $background-color; 
+}
+
+.main {
+    flex: 1 0 auto;
+    text-align: center;
+    background-color: $background-color; 
+    padding: 20px;
+}
+
+// Header styles
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-background-color; 
+    border-bottom: 5px solid $header-border-color; 
+    padding: 20px 0;
+}
+
+// Footer styles
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid $footer-border-color;
+    background-color: $footer-background-color; 
+    color: $footer-font-color; 
+    padding: 20px 0;
+}
+
+.footer a {
+    color: $footer-link-color; 
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+// Typography for headings
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5rem;
+    color: $font-color;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
 
 @import 'blockquotes';
 @import 'code';
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-body {
-    font-family: 'Oswald', sans-serif;
-    background-color: $background-color;
-}
-
-* {
-    color: $font-color;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair', sans-serif;
+// Media Queries
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
 }
