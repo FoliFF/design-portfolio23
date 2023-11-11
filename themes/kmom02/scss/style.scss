@@ -15,7 +15,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     border: 0 none;
     margin: 0;
     padding: 0;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
     color: $font-color;
 }
 
@@ -25,6 +24,8 @@ body {
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
     background-color: $background-color; 
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 .main {
@@ -72,13 +73,6 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
-}
-
-body {
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.5rem;
-    color: $font-color;
-    text-align: center;
 }
 
 img {
