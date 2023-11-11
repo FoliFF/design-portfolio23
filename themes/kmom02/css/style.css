@@ -6460,11 +6460,11 @@ pre code {
 }
 
 body {
+  font-family: "Oswald", sans-serif;
   background-color: #3d5a80;
 }
 
 * {
-  font-family: "Oswald", sans-serif;
   color: #000;
 }
 
