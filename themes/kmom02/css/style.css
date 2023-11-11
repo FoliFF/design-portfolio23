@@ -6443,6 +6443,8 @@ body {
   text-align: center;
   background-color: #ECE3CE;
   padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .header, .site-header {
