@@ -6433,7 +6433,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Playfair", sans-serif;
-  background-color: #fff;
+  background-color: #ECE3CE;
   text-align: center;
   line-height: 1.5rem;
 }
@@ -6441,23 +6441,23 @@ body {
 .main {
   flex: 1 0 auto;
   text-align: center;
-  background-color: #fff;
+  background-color: #ECE3CE;
   padding: 20px;
 }
 
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #f5f5f5;
-  border-bottom: 5px solid goldenrod;
+  background-color: #739072;
+  border-bottom: 5px solid #3A4D39;
   padding: 20px 0;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 5px solid goldenrod;
-  background-color: darkred;
+  border-top: 5px solid #3A4D39;
+  background-color: #739072;
   color: #fff;
   padding: 20px 0;
 }
