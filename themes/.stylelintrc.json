@@ -1,5 +1,5 @@
 {
-    "configBasedir": "../themes/kmom02/node_modules",
+    "configBasedir": "../portfolio/themes/kmom02/node_modules",
     "extends": [
         "stylelint-config-sass-guidelines"
     ],
