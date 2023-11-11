@@ -6427,13 +6427,12 @@ template {
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: #444;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Oswald", sans-serif;
+  font-family: "Playfair", sans-serif;
   background-color: #fff;
   text-align: center;
   line-height: 1.5rem;
