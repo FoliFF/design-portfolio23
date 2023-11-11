@@ -38,6 +38,9 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+}
+
+.header{
     background-color: $header-background-color; 
     border-bottom: 5px solid $header-border-color; 
     padding: 20px 0;

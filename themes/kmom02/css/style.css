@@ -6448,6 +6448,9 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
+}
+
+.header {
   background-color: #739072;
   border-bottom: 5px solid #3A4D39;
   padding: 20px 0;
