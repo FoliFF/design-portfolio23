@@ -6501,9 +6501,9 @@ html {
   background-color: #739072;
 }
 
-.custom-title {
+.title {
   font-family: "Oswald", sans-serif;
-  color: #3A4D39;
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
