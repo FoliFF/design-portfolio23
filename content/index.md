@@ -5,6 +5,7 @@ Description: This is our index page.
 
 Olof Jansson
 ==========================
+![Olof Jansson](../assets/img/olof-crop.jpeg "Olof Jansson"){: .profile-image-style }
 
 Mitt namn är Olof Jansson, och jag är 30 år gammal. För några år sedan väcktes mitt intresse för webbprogrammering, och nu närmar jag mig tiden för att ta examen inom detta område. 
 
