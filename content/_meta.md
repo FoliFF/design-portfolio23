@@ -7,5 +7,5 @@ Social:
       icon: fab fa-github
     - title: Link to LinkedIn profile
       url: https://www.linkedin.com/in/olof-jansson/
-      icon: fa-brands fa-linkedin-in
+      icon: fab fa-linkedin
 ---
