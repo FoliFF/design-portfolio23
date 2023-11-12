@@ -6,8 +6,10 @@ Description: This is our index page.
 Olof Jansson
 ==========================
 
-Jag är idagsläget Service Tekniker på Lindinvent AB. Studerar på BTH för att kunna bli webbprogrammerare i framtiden. Jag vill kunna jobba överallt samt att ha en bra lön. Jag strävar att jobba frammåt och fortsätta växa som person. 
+Mitt namn är Olof Jansson, och jag är 30 år gammal. För några år sedan väcktes mitt intresse för webbprogrammering, och nu närmar jag mig tiden för att ta examen inom detta område. 
 
-Mina hobbies är gaming och PC för livet. 
+För närvarande arbetar jag som servicetekniker på Lindinvent AB och studerar parallellt vid Blekinge Tekniska Högskola (BTH) med målet att i framtiden bli webbprogrammerare. Jag drivs av tanken på att kunna arbeta var som helst i världen och eftersträvar en position som inte bara ger mig en god inkomst utan också möjligheten att fortsätta utvecklas både professionellt och personligt. 
 
-Jag har en stort hjärta till min fru och jag älskar henne väldigt mycket.
+På fritiden ägnar jag mig åt gaming och spelar diverse PC-spel. Utöver detta har jag en annan stor passion, nämligen att bygga LEGO. Ett av mina mest ambitiösa projekt har varit att sätta samman UCS Millennium Falcon, vilket var både utmanande och givande.
+
+Inte att förglömma är min underbara fru, som har en speciell plats i mitt hjärta. Jag älskar henne otroligt mycket och uppskattar den glädje och stöd hon ger mig i livet.
