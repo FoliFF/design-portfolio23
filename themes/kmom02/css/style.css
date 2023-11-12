@@ -6467,12 +6467,12 @@ body {
 }
 
 .header a, .title a {
-  color: #FFFAF0;
+  color: #ECE3CE;
   text-decoration: none;
 }
 
 .title {
-  color: #FFFAF0;
+  color: #ECE3CE;
 }
 
 .footer {
@@ -6484,7 +6484,7 @@ body {
   align-items: center;
   border-top: 5px solid #3A4D39;
   background-color: #739072;
-  color: #FFFAF0;
+  color: #ECE3CE;
   padding: 20px 0;
   font-weight: bold;
 }
@@ -6538,7 +6538,7 @@ img {
   padding: 10px 15px;
   border-radius: 5px;
   font-weight: bold;
-  color: #FFFAF0;
+  color: #ECE3CE;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
