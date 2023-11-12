@@ -51,23 +51,13 @@ body {
     margin: 0 auto; // Centers the div in the parent element
     max-width: 50%; // Makes the div max-width 50% of its parent
     box-sizing: content-box; // Ensures padding and border are included in the width and height calculations
+    background-color: $nav-color;
 }
 
 .profile-image-style img {
     width: 100%; // Makes the image fill the div
     height: auto; // Keeps the image's aspect ratio
     border-radius: 5px; // If you want the image itself to also have rounded corners
-}
-
-.profile-image-border {
-    border: 5px solid #3A4D39; // This adds the green border
-    display: inline-block; // Makes the div behave like an image
-    border-radius: 10px; // Keeps the rounded corners
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Keeps the shadow
-    padding: 10px; // Optional: adds some space between the image and the border
-    margin: 0 auto; // Centers the div in the parent element
-    max-width: 50%; // Makes the div max-width 50% of its parent
-    box-sizing: content-box; // Ensures padding and border are included in the width and height calculations
 }
 
 // Header styles
