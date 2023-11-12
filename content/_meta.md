@@ -8,4 +8,7 @@ Social:
     - title: Link to LinkedIn profile
       url: https://www.linkedin.com/in/olof-jansson/
       icon: fab fa-linkedin
+    - title: Link to YouTube profile
+      url: https://www.youtube.com/channel/UCtmKB_iZN2nFb5fCA00tNYg
+      icon: fab fa-youtube
 ---

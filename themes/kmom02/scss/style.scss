@@ -18,6 +18,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 }
 
 // Layout and Structure
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -50,11 +56,15 @@ body {
 
 // Footer styles
 .footer {
+    width: 100%; // Ensures the footer is full width
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center; // Vertically centers the content if needed
     border-top: 5px solid $footer-border-color;
-    background-color: $footer-background-color; 
-    color: $footer-font-color; 
+    background-color: $footer-background-color;
+    color: $footer-font-color;
     padding: 20px 0;
 }
 
@@ -73,6 +83,14 @@ body {
 
 .social a {
     text-decoration: none;
+}
+
+// Make sure no other container is limiting the width of the footer
+.container, .wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
 }
 
 // Typography for headings
