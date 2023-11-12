@@ -6473,6 +6473,11 @@ body {
 
 .footer .social {
   font-size: 2rem;
+  margin-right: 20px;
+}
+
+.footerQoute {
+  margin-left: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
