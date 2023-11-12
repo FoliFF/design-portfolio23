@@ -68,6 +68,7 @@ body {
     background-color: $footer-background-color;
     color: $footer-font-color;
     padding: 20px 0;
+    font-weight: bold;
 }
 
 .footer a {
@@ -121,17 +122,13 @@ img {
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
+    color: $header-font-color;
     text-decoration: none;
     transition: background-color 0.3s ease;
 
     &:hover {
         background-color: $nav-color;
     }
-}
-
-.nav-button a {
-    color: $header-font-color;
-    font-weight: bold;
 }
 
 @import 'blockquotes';
