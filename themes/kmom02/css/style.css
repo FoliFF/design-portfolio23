@@ -6455,7 +6455,9 @@ body {
 
 .header, .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -6498,6 +6500,11 @@ html {
   background-color: #739072;
 }
 
+.custom-title {
+  font-family: "Oswald", sans-serif;
+  color: #3A4D39;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   margin-bottom: 0.6em;
@@ -6512,6 +6519,19 @@ p, td, th, li, dd {
 
 img {
   max-width: 100%;
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #739072;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.nav-button:hover {
+  background-color: #5c745b;
 }
 
 /* Blockquote */

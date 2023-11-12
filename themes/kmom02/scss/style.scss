@@ -45,7 +45,9 @@ body {
 // Header styles
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header{
@@ -69,7 +71,7 @@ body {
 }
 
 .footer a {
-    color: $footer-link-color; 
+    color: $font-color; 
 }
 
 .footer .social {
@@ -90,6 +92,12 @@ html {
 }
 
 // Typography for headings
+.custom-title {
+    font-family: 'Oswald', sans-serif; // example font
+    color: #3A4D39; // example color
+    // Add more styling as needed
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0.6em;
@@ -104,6 +112,21 @@ p, td, th, li, dd {
 
 img {
     max-width: 100%;
+}
+
+// Nav-Link as Buttons
+.nav-button {
+    display: inline-block;
+    background-color: $header-background-color;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($header-background-color, 10%);
+    }
 }
 
 @import 'blockquotes';
