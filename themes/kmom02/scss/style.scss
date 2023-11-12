@@ -118,15 +118,19 @@ img {
 .nav-button {
     display: inline-block;
     background-color: $header-background-color;
-    color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: darken($header-background-color, 10%);
+        background-color: $nav-color;
     }
+}
+
+.nav-button a {
+    color: $header-font-color;
+    font-weight: bold;
 }
 
 @import 'blockquotes';
