@@ -6454,12 +6454,31 @@ body {
 }
 
 .profile-image-style {
-  max-width: 100%;
-  height: auto;
+  border: 5px solid #3A4D39;
+  display: inline-block;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   margin: 0 auto;
-  display: block;
+  max-width: 50%;
+  box-sizing: content-box;
+}
+
+.profile-image-style img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.profile-image-border {
+  border: 5px solid #3A4D39;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+  box-sizing: content-box;
 }
 
 .header, .site-header {
