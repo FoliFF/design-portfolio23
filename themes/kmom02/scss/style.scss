@@ -56,6 +56,15 @@ body {
     padding: 20px 0;
 }
 
+.header a, .title a {
+    color: $header-font-color;
+    text-decoration: none;
+}
+
+.title {
+    color: $header-font-color;
+}
+
 // Footer styles
 .footer {
     width: 100%;

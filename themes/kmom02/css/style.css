@@ -6466,6 +6466,15 @@ body {
   padding: 20px 0;
 }
 
+.header a, .title a {
+  color: #FFFAF0;
+  text-decoration: none;
+}
+
+.title {
+  color: #FFFAF0;
+}
+
 .footer {
   width: 100%;
   margin-left: auto;
