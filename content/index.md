@@ -5,8 +5,6 @@ Description: This is our index page.
 
 Olof Jansson
 ==========================
-![Olof Jansson](/assets/img/olof-crop.jpeg "Olof Jansson"){: .profile-image-style }
-
 Mitt namn är Olof Jansson, och jag är 30 år gammal. För några år sedan väcktes mitt intresse för webbprogrammering, och nu närmar jag mig tiden för att ta examen inom detta område. 
 
 För närvarande arbetar jag som servicetekniker på Lindinvent AB och studerar parallellt vid Blekinge Tekniska Högskola (BTH) med målet att i framtiden bli webbprogrammerare. Jag drivs av tanken på att kunna arbeta var som helst i världen och eftersträvar en position som inte bara ger mig en god inkomst utan också möjligheten att fortsätta utvecklas både professionellt och personligt. 
