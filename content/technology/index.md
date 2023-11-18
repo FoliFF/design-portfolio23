@@ -6,11 +6,11 @@ Template: technologies
 Technologies
 ==========================
 
-<div class="box">
+<div class="box half">
 CSS
 </div>
 
-<div class="box">
+<div class="box half">
 HTML
 </div>
 
@@ -22,7 +22,7 @@ JAVASCRIPT
 PHP
 </div>
 
-<div class="box">
+<div class="box full">
 PYTHON
 </div>
 
@@ -30,6 +30,6 @@ PYTHON
 GIT
 </div>
 
-<div class="box wide">
+<div class="box">
 SQLITE
 </div>
