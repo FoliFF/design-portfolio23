@@ -160,6 +160,10 @@ img {
 @import 'blockquotes';
 @import 'code';
 
+// for kmom03
+@import 'technology.scss';
+
+
 // Media Queries
 @media (max-width: 767px) {
     .header, .site-header {
