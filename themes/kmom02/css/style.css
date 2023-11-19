@@ -6562,6 +6562,11 @@ img {
   background-color: #3A4D39;
 }
 
+.content {
+  margin: 5px;
+  padding: 5px;
+}
+
 /* Blockquote */
 blockquote {
   font-style: italic;
