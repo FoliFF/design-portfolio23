@@ -6618,7 +6618,7 @@ pre code {
   grid-column: 1/-1;
 }
 
-.two.column.box box {
+.two.column.box {
   grid-column: span 2;
 }
 
