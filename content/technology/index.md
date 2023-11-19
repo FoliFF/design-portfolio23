@@ -22,7 +22,7 @@ JAVASCRIPT
 PHP
 </div>
 
-<div class="two column box">
+<div class="full box">
 PYTHON
 </div>
 
