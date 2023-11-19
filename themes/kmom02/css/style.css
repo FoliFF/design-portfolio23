@@ -6563,7 +6563,7 @@ img {
 }
 
 .content {
-  margin: 0;
+  margin: 0 auto;
   padding: 5px;
   max-width: 100%;
   overflow-x: hidden;
