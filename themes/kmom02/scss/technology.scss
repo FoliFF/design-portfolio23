@@ -20,16 +20,34 @@
   background: #f0f0f0; 
   border: 1px solid #739072; 
   padding: 20px; 
+
+	/* Typography */
+	font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 // Spanning the entire width
 .box.full {
   grid-column: span 3;
+	
+	/* Typography */
+	font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 // Spanning two columns
 .two.column.box {
   grid-column: span 2;
+
+	/* Typography */
+	font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .box:hover {
@@ -37,21 +55,6 @@
 	cursor: pointer;
 }
 
-/*
- * Typography
- */
- body {
-  font-family: 'Oswald', sans-serif;
-	text-decoration: underline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair', sans-serif;
-	margin-bottom: 0.6em;
-	font-weight: bold;
-}
-
- 
 // Responsive design for mobile
 @media (max-width: 767px) {
   .landingpage {
