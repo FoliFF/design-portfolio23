@@ -2,22 +2,6 @@
 
 /* Landing page styling */
 
-
-/* Base page styling */
-.page {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  margin-bottom: 20px;
-}
-
-// Base structure for the layout with two columns
-.page-layout {
-  display: grid;
-  grid-template-columns: minmax(200px, 1fr) 3fr; // Sidebar takes up 1 fraction of the available space, or 200px minimum, and the content takes 3 fractions
-  grid-gap: 20px;
-}
-
 // A landing page with three columns
 .landingpage {
   display: grid;
@@ -29,28 +13,6 @@
 .landingpage h1 {
 	grid-column: span 3;
 	justify-self: center;
-}
-
-// Sidebar styling
-.sidebar {
-  // If you want to add some padding or background color to the sidebar
-  padding: 20px;
-  background: #f0f0f0; // Example color
-  // Ensure the links inside the sidebar take up the full width of the sidebar and are easily clickable
-  a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: $font-color; // Define this variable in your variables.scss or replace with a color value
-    &:hover {
-      background-color: $hover-BG; // Define this variable in your variables.scss or replace with a color value
-    }
-  }
-}
-
-// Main content styling
-.content {
-  padding: 20px;
 }
 
 /* Box designs on the rows */
@@ -108,7 +70,7 @@
 
 // Responsive design for mobile
 @media (max-width: 767px) {
-  .page, .landingpage {
+  .landingpage {
     grid-template-columns: 1fr; 
   }
 
@@ -116,13 +78,5 @@
   .box.full,
   .two.column.box {
     grid-column: span 3; 
-  }
-
-	.sidebar {
-    display: none;
-  }
-
-	.content {
-    grid-column: 1 / -1;
   }
 }
