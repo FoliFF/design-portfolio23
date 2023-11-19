@@ -94,6 +94,14 @@
   }
 }
 
+.content{
+	margin: 10px;
+	padding: 10px;
+	max-width: 100%;
+	overflow-x: hidden;
+	word-wrap: break-word;
+}
+
 // Responsive design for mobile
 @media (max-width: 767px) {
   .landingpage {

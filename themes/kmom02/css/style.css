@@ -6562,14 +6562,6 @@ img {
   background-color: #3A4D39;
 }
 
-.content {
-  margin: 0 auto;
-  padding: 5px;
-  max-width: 100%;
-  overflow-x: hidden;
-  word-wrap: break-word;
-}
-
 /* Blockquote */
 blockquote {
   font-style: italic;
@@ -6694,6 +6686,14 @@ pre code {
 }
 .sidebar a:hover {
   background-color: #739072;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
 }
 
 @media (max-width: 767px) {
