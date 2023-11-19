@@ -17,9 +17,9 @@
 
 /* Box designs on the rows */
 .box {
-  background: #f0f0f0; 
-  border: 1px solid #739072; 
-  padding: 20px; 
+  background: $bg-white; 
+  border: 1px solid $border-color; 
+	cursor: pointer;
 
 	/* Typography */
 	font-family: 'Oswald', sans-serif;
