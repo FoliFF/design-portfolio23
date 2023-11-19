@@ -1,9 +1,7 @@
-/* technology.scss */
 .landingpage {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); // Three columns
-  grid-gap: 20px; // Space between items
-  margin-bottom: 20px; // Space below the grid
+  grid-template-columns: repeat(3, 1fr); // Define three columns
+  grid-gap: 20px; // Space between grid items
 }
 
 .box {
@@ -12,30 +10,25 @@
   padding: 20px; // Padding inside the boxes
 }
 
-// Spanning the entire width
-.box.full {
-  grid-column: 1 / -1;
-}
-
-// Spanning two columns
-.box.half {
+// Spanning two out of three columns
+.box.twothird {
   grid-column: span 2;
 }
 
-.landingpage h1 {
-	grid-column: span 3;
-	justify-self: center;
+// Spanning the entire width of the grid
+.box.full {
+  grid-column: 1 / -1; // or 'span 3' to span all three columns
 }
 
-// Responsive design for mobile
+// Responsive design for smaller screens
 @media (max-width: 767px) {
   .landingpage {
-    grid-template-columns: 1fr; // One column on small screens
+    grid-template-columns: 1fr; // Single column on small screens
   }
 
   .box,
-  .box.full,
-  .box.half {
-    grid-column: 1 / -1; // All boxes take full width
+  .box.twothird,
+  .box.full {
+    grid-column: 1 / -1; // All boxes take full width on small screens
   }
 }
