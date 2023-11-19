@@ -3,7 +3,7 @@ Title: Technologies
 Description: This is my technologies page.
 Template: technologies
 ---
-Technologies
+<h1>Technologies</h1>
 ==========================
 
 <div class="two column box">
