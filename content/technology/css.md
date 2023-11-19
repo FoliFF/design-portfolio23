@@ -15,4 +15,3 @@ Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi p
 p {
     color: blue;
 }
-```

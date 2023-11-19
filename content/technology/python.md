@@ -15,4 +15,3 @@ Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på f�
 for number in range(1, 100 + 1):
     if not number % 2:
         print(number)
-```

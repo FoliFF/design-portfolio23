@@ -94,21 +94,6 @@
   }
 }
 
-/*
- * Code snippet style so the box only fits the
- * code and not the entire width of the div.
- */
-.code-block {
-  display: inline-block; 
-  background: $bg-white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 10px 0; 
-  font-family: "Consolas", "Monaco", "Courier New", monospace; 
-  white-space: pre-wrap; 
-  word-break: break-word;
-}
-
 // Responsive design for mobile
 @media (max-width: 767px) {
   .landingpage {
