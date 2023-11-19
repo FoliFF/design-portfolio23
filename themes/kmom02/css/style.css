@@ -6514,7 +6514,7 @@ body {
   margin-right: 20px;
 }
 
-.footer_qoute {
+.footer-quote {
   margin-left: 20px;
 }
 
@@ -6674,6 +6674,7 @@ pre code {
   background-color: #ECE3CE;
   border: 2px solid #3A4D39;
 }
+
 .sidebar a {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
@@ -6682,8 +6683,8 @@ pre code {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: #222;
 }
+
 .sidebar a:hover {
   background-color: #739072;
 }
