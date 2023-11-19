@@ -17,7 +17,7 @@
 
 // Spanning the entire width
 .box.full {
-  grid-column: 1 / -1;
+  grid-column: span 3;
 }
 
 // Spanning two columns
