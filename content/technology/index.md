@@ -6,11 +6,11 @@ Template: technologies
 Technologies
 ==========================
 
-<div class="box">
+<div class="box half">
 CSS
 </div>
 
-<div class="box">
+<div class="box half">
 HTML
 </div>
 
