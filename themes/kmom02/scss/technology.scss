@@ -51,6 +51,7 @@
 }
 
 .box:hover {
+	background-color: $header-background-color;
 	border: 2px solid #3A4D39;
 	cursor: pointer;
 }
