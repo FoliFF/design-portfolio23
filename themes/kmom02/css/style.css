@@ -6646,10 +6646,18 @@ pre code {
   color: #222;
 }
 
-.box:hover {
+.box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+.box a:hover {
   background-color: #739072;
   border: 2px solid #3A4D39;
-  cursor: pointer;
 }
 
 @media (max-width: 767px) {
