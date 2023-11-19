@@ -6,29 +6,29 @@ Template: technologies
 Technologies
 ==========================
 <div class="box">
-  <a href="../content/technology/css.md">CSS</a>
+  <a href="technology/css">CSS</a>
 </div>
 
 <div class="box two column">
-  <a href="../content/technology/html.md">HTML</a>
+  <a href="technology/html">HTML</a>
 </div>
 
 <div class="box two column">
-  <a href="../content/technology/javascript.md">JAVASCRIPT</a>
+  <a href="technology/javascript">JAVASCRIPT</a>
 </div>
 
 <div class="box">
-  <a href="../content/technology/php.md">PHP</a>
+  <a href="technology/php">PHP</a>
 </div>
 
 <div class="box full">
-  <a href="../content/technology/python.md">PYTHON</a>
+  <a href="technology/python">PYTHON</a>
 </div>
 
 <div class="box">
-  <a href="../content/technology/git.md">GIT</a>
+  <a href="technology/git">GIT</a>
 </div>
 
 <div class="box two column">
-  <a href="../content/technology/sqlite.md">SQLITE</a>
+  <a href="technology/sqlite">SQLITE</a>
 </div>
