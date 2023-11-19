@@ -6601,6 +6601,20 @@ pre code {
 
 /* technology.scss */
 /* Landing page styling */
+/* Base page styling */
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 3fr;
+  grid-gap: 20px;
+}
+
 .landingpage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -6611,6 +6625,24 @@ pre code {
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
+}
+
+.sidebar {
+  padding: 20px;
+  background: #f0f0f0;
+}
+.sidebar a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #222;
+}
+.sidebar a:hover {
+  background-color: #739072;
+}
+
+.content {
+  padding: 20px;
 }
 
 /* Box designs on the rows */
@@ -6661,13 +6693,19 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .landingpage {
+  .page, .landingpage {
     grid-template-columns: 1fr;
   }
   .box,
   .box.full,
   .two.column.box {
     grid-column: span 3;
+  }
+  .sidebar {
+    display: none;
+  }
+  .content {
+    grid-column: 1/-1;
   }
 }
 @media (max-width: 767px) {
