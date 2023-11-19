@@ -1,6 +1,8 @@
 /* technology.scss */
 
-/* A landing page with three columns*/
+/* Landing page styling */
+
+// A landing page with three columns
 .landingpage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -8,10 +10,15 @@
   margin-bottom: 20px; 
 }
 
-// design of the box on the rows
+.landingpage h1 {
+	grid-column: span 3;
+	justify-self: center;
+}
+
+/* Box designs on the rows */
 .box {
   background: #f0f0f0; 
-  border: 1px solid #ddd; 
+  border: 1px solid #739072; 
   padding: 20px; 
 }
 
@@ -25,11 +32,26 @@
   grid-column: span 2;
 }
 
-.landingpage h1 {
-	grid-column: span 3;
-	justify-self: center;
+.box:hover {
+	border: 2px solid #3A4D39;
+	cursor: pointer;
 }
 
+/*
+ * Typography
+ */
+ body {
+  font-family: 'Oswald', sans-serif;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair', sans-serif;
+	margin-bottom: 0.6em;
+	font-weight: bold;
+}
+
+ 
 // Responsive design for mobile
 @media (max-width: 767px) {
   .landingpage {
