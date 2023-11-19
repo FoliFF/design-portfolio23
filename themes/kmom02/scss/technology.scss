@@ -68,6 +68,27 @@
   }
 }
 
+/* Base structure for the layout with two columns */
+.page-layout {
+  display: grid;
+  grid-template-columns: 250px 1fr; // Sidebar width and content taking the rest
+  grid-gap: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  /* Sidebar styles here */
+  a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: $link-color; // Make sure this variable is defined
+    &:hover {
+      background-color: $hover-bg-color; // Make sure this variable is defined
+    }
+  }
+}
+
 // Responsive design for mobile
 @media (max-width: 767px) {
   .landingpage {
@@ -78,5 +99,13 @@
   .box.full,
   .two.column.box {
     grid-column: span 3; 
+  }
+
+	.page-layout {
+    grid-template-columns: 1fr; // Full width on small screens
+  }
+
+  .sidebar {
+    display: none; // Hide the sidebar on mobile
   }
 }

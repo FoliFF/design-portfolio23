@@ -1,7 +1,7 @@
 ---
 Title: HTML
 Description: This is my HTML page.
-Template: technologies
+Template: technology
 ---
 # HTML
 
