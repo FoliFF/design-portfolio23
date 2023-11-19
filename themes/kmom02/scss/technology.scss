@@ -38,7 +38,7 @@
 
   .box,
   .box.full,
-  .box.half {
-    grid-column: 1 / -1; 
+  .two.column.box {
+    grid-column: span 3; 
   }
 }
