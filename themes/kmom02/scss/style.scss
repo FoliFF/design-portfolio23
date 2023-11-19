@@ -159,6 +159,9 @@ img {
 .content{
     margin: 5px;
     padding: 5px;
+    max-width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 
 @import 'blockquotes';
