@@ -11,4 +11,10 @@ Social:
     - title: Link to YouTube profile
       url: https://www.youtube.com/channel/UCtmKB_iZN2nFb5fCA00tNYg
       icon: fab fa-youtube
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
