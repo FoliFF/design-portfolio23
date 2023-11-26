@@ -1,3 +1,208 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark'; 
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Reset and Basic Styles
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+// Layout and Structure
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair', sans-serif;
+    background-color: $background-color; 
+    text-align: center;
+    line-height: 1.5rem;
+}
+
 .main {
-    background-color: yellow;
+    flex: 1 0 auto;
+    text-align: center;
+    background-color: $background-color; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.profile-image-style {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    border: 3px solid $nav-color;
+    border-radius: 10px;
+    background-color: $nav-color;
+}
+
+.profile-image-style img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+// Header styles
+.header, .site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: $header-background-color; 
+    border-bottom: 5px solid $header-border-color; 
+    padding: 20px 0;
+}
+
+.header a, .title a {
+    color: $header-font-color;
+    text-decoration: none;
+}
+
+.title {
+    color: $header-font-color;
+}
+
+// Footer styles
+.footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid $footer-border-color;
+    background-color: $footer-background-color;
+    color: $footer-font-color;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.footer a {
+    color: $font-color; 
+}
+
+.footer .social {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.footer-quote{
+    margin-left: 20px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+html {
+    background-color: $footer-background-color;
+}
+
+// Typography for headings
+.title {
+    font-family: 'Oswald', sans-serif;
+    color: #fff; 
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Nav-Link as Buttons
+.nav-button {
+    display: inline-block;
+    background-color: $header-background-color;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: $header-font-color;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $nav-color;
+    }
+}
+
+@import 'blockquotes';
+@import 'code';
+
+// for kmom03
+@import 'technology';
+
+// kmom04
+//@import 'style-dark.scss';
+
+// Media Queries
+@media (max-width: 767px) {
+    .header, .site-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        width: 80%;
+        padding: 0; 
+        margin-bottom: 1em;
+    }
+
+    .title {
+        width: 100%; 
+        padding: 0; 
+    }
+
+    .nav {
+        width: 100%; 
+        padding: 0; 
+    }
+
+    .nav-toggle {
+        display: block; 
+        margin: 1em auto; 
+    }
+
+    .nav ul {
+        justify-content: center; 
+    }
+
+    .nav li {
+        padding: 0.5em; 
+    }
+
+    .nav a {
+        text-align: center;
+    }
 }
