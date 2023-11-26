@@ -1,34 +1,18 @@
 ---
-Title: Technologies
-Description: This is my technologies page.
+Title: Rapportsida
+Description: This is pages of my report.
 Template: technologies
 ---
-Technologies
+Report index
 ==========================
-<div class="box">
-  <a href="technology/css">CSS</a>
-</div>
-
-<div class="box two column">
-  <a href="technology/html">HTML</a>
-</div>
-
-<div class="box two column">
-  <a href="technology/javascript">JAVASCRIPT</a>
-</div>
-
-<div class="box">
-  <a href="technology/php">PHP</a>
+<div class="box full">
+  <a href="analysis/01_colors">Colors Report</a>
 </div>
 
 <div class="box full">
-  <a href="technology/python">PYTHON</a>
+  <a href="analysis/02_load">Load Report</a>
 </div>
 
-<div class="box">
-  <a href="technology/git">GIT</a>
-</div>
-
-<div class="box two column">
-  <a href="technology/sqlite">SQLITE</a>
+<div class="box full">
+  <a href="analysis/03_design_principles">Design Principles Report</a>
 </div>

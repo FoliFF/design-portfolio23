@@ -47,9 +47,9 @@ body {
     display: block;
     margin: 0 auto;
     padding: 2px;
-    border: 3px solid $nav-color;
+    border: 3px solid $border-color;
     border-radius: 10px;
-    background-color: $nav-color;
+    background-color: $border-color;
 }
 
 .profile-image-style img {
@@ -128,12 +128,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: $font-color;
 }
 
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    color: $font-color;
 }
 
 img {
