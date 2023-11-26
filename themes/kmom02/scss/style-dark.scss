@@ -140,6 +140,7 @@ p, td, th, li, dd {
 
 img {
     max-width: 100%;
+    filter: invert(100%);
 }
 
 // Nav-Link as Buttons
