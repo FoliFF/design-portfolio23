@@ -58,6 +58,23 @@ body {
     border-radius: 5px;
 }
 
+.report-image {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 3px solid $nav-color;
+    border-radius: 10px;
+    background-color: $nav-color;
+}
+
+.report-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 // Header styles
 .header, .site-header {
     display: flex;
@@ -136,6 +153,7 @@ p, td, th, li, dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
     color: $font-color;
+    margin-bottom: 1.5rem;
 }
 
 img {
