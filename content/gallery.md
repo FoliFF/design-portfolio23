@@ -2,11 +2,11 @@
 Title: Gallery
 Description: This is a gallery page
 gallery_images:
-  - url: image/logoFoliFF-removebg.png?
-    thumbnail: parrot-eating.png
+  - url: imggallery/parrot-eating.png
+    thumbnail: imggallery/parrot-eating.png
     alt: Parrot eating
-  - url: image/imggallery/horse.png
-    thumbnail: horse.jpg
+  - url: imggallery/horse.jpg
+    thumbnail: imggallery/horse.jpg
     alt: White horse
 ---
 
