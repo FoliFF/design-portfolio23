@@ -1,12 +1,11 @@
 ---
 Title: Gallery
 Description: This is a gallery page
-Template: gallery
 gallery_images:
-  - url: parrot-eating.png
+  - url: image/logoFoliFF-removebg.png?
     thumbnail: parrot-eating.png
     alt: Parrot eating
-  - url: horse.jpg
+  - url: image/imggallery/horse.png
     thumbnail: horse.jpg
     alt: White horse
 ---
@@ -16,11 +15,11 @@ gallery_images:
 
 ![Eating Parrot](%base_url%/assets/img/imgallery/parrot-eating.png "Parrot Eating")
 
-![Eating Parrot](image/parrot-eating.png "Parrot Eating")
+![Eating Parrot](%base_url%/image/imggallery/parrot-eating.png "Parrot Eating")
 
-![Horse](%base_url%/assets/img/imgallery/horse.jpg "Horse")
+![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
 
-![Horse](image/imgallery/horse.png "Horse")
+![White horse](%base_url%/image/imggallery/horse.png "White horse")
 
 <!-- ![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
 
