@@ -3,15 +3,23 @@ Title: Gallery
 Description: This is a gallery page
 gallery_images:
   - url: image/parrot-eating.png
-    thumbnail: imggallery/parrot-eating.png
+    thumbnail: image/parrot-eating.png
     alt: Parrot eating
-  - url: /imggallery/horse.jpg
+  - url: imggallery/horse.jpg
     thumbnail: imggallery/horse.jpg
     alt: White horse
 ---
 
 # Gallery
 
+
+![Eating Parrot](%base_url%/assets/img/imgallery/parrot-eating.png "Parrot Eating")
+
+![Eating Parrot](%base_url%/image/imggallery/parrot-eating.png "Parrot Eating")
+
+![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
+
+![White horse](%base_url%/image/imggallery/horse.png "White horse")
 
 <!-- ![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
 
