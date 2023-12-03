@@ -18,9 +18,13 @@ gallery_images:
 
 ![Eating Parrot](image/parrot-eating.png "Parrot Eating")
 
-![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
-
 ![Horse](%base_url%/assets/img/imgallery/horse.jpg "Horse")
+
+![Horse](image/imgallery/horse.png "Horse")
+
+<!-- ![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
+
+
 
 ![Chrysanthemum Flower](%base_url%/assets/img/imgallery/chrysanthemum.jpg "Chrysanthemum Flower")
 
@@ -34,3 +38,4 @@ gallery_images:
 
 ![Pine Forest](%base_url%/assets/img/imgallery/pine-forest.jpg "Pine forest")
 
+-->
