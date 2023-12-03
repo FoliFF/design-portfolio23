@@ -1,0 +1,21 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="gallerypage">
+            {% for image in gallery_images %}
+                <div class="gallery-item">
+                    <!-- Use the rewritten path for Cimage processing -->
+                    <a href="image/{{ image.url }}">
+                        <img src="image/{{ image.thumbnail }}" alt="{{ image.alt }}">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+   
+    {% include 'incl/footer.twig' %}
+</body>
+</html>
