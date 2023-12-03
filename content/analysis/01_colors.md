@@ -20,7 +20,7 @@ Resultat
 -----------------------
 I detta avsnitt presenteras tre skärmdumpar från BBC, Al-Jazeera och SVT Nyheter, följt av färgschema, typsnitt och struktur på hemsidan.
 <h4>SVT Nyheter</h4>
-![SVT Nyheter](%base_url%/assets/img/kmom04-1.JPG "SVT Nyheter"){.report-image}
+![SVT Nyheter](%base_url%/assets/img/kmom04/kmom04-1.JPG "SVT Nyheter"){.report-image}
 SVT Nyheter Färgschema: 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
@@ -35,7 +35,7 @@ SVT Nyheter Färgschema:
 SVT Nyheters webbplats kännetecknas av en struktur uppdelad i två kolumner, kompletterat med en tydligt läsbar navigeringsbar. Layouten består av en huvuddel och en sidodel, vilket bidrar till webbplatsens läsbarhet och navigeringsvänlighet.
 
 <h4>BBC News</h4>
-![BBC News](%base_url%/assets/img/kmom04-2.JPG "BBC News"){.report-image}
+![BBC News](%base_url%/assets/img/kmom04/kmom04-2.JPG "BBC News"){.report-image}
 BBC News Färgschema: 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
@@ -49,7 +49,7 @@ BBC News Färgschema:
 
 BBC News webbplats struktur består av flera horisontella rader, indelade i fyra kolumner där varje kolumn åtföljs av en bild. Färgschemat domineras av rött och vitt, med svarta bakgrunder använda i vissa sektioner för att skapa kontrast.
 <h4>Al-jazeera</h4>
-![Al-jazeera](%base_url%/assets/img/kmom04-3.JPG "Al-jazeera"){.report-image}
+![Al-jazeera](%base_url%/assets/img/kmom04/kmom04-3.JPG "Al-jazeera"){.report-image}
 Al-jazeera Färgschema: 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>

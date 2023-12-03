@@ -5,6 +5,7 @@
 
     <div class="main" role="main">
         <div class="gallerypage">
+            {{ content }}
             {% for image in gallery_images %}
                 <div class="gallery-item">
                     <!-- Use the rewritten path for Cimage processing -->
@@ -18,4 +19,5 @@
    
     {% include 'incl/footer.twig' %}
 </body>
+
 </html>
