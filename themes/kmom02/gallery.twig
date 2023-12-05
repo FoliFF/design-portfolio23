@@ -5,7 +5,7 @@
 
     <div class="main" role="main">
         <div class="gallerypage">
-            {% for image in gallery_images %}
+            {% for image in meta.gallery_images %}
                 <div class="gallery-item">
                     <a href="image/imggallery/{{ image.url }}">
                         <img src="image/imggallery/{{ image.thumbnail }}" alt="{{ image.alt }}">

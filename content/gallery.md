@@ -8,10 +8,14 @@ gallery_images:
   - url: imggallery/horse.jpg
     thumbnail: imggallery/horse.jpg
     alt: White horse
+
+Logo: image/imggallery/parrot-eating.png
 ---
 
 # Gallery
 
+
+![Eating Parrot](%base_url%/image/imggallery/parrot-eating.png "Parrot Eating")
 
 ![Eating Parrot](%base_url%/assets/img/imgallery/parrot-eating.png "Parrot Eating")
 
@@ -21,9 +25,13 @@ gallery_images:
 
 ![White horse](%base_url%/image/imggallery/horse.png "White horse")
 
-<!-- ![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
 
+https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png
 
+https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imggallery/parrot-eating.png
+<!-- 
+
+![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")
 
 ![Chrysanthemum Flower](%base_url%/assets/img/imgallery/chrysanthemum.jpg "Chrysanthemum Flower")
 
