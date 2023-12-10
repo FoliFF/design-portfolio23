@@ -28,7 +28,6 @@ Logo: image/imggallery/parrot-eating.png
 
 https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png
 
-https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imggallery/parrot-eating.png
 <!-- 
 
 ![Yellow Bird](%base_url%/assets/img/imgallery/yellow-bird.jpg "Yellow bird")

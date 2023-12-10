@@ -1,7 +1,6 @@
 ---
 Title: Load
 Description: Rapport for colors
-Template: analysis
 ---
 Load
 =======================

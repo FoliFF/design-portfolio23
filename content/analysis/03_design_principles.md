@@ -1,7 +1,6 @@
 ---
 Title: Design principles
 Description: Rapport for colors
-Template: analysis
 ---
 Design principles
 =======================
