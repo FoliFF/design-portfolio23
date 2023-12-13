@@ -5,17 +5,28 @@ Description: Rapport for colors
 Load
 =======================
 
-Skriv en eller två rader om vad uppgiften handlar om.
+Denna analys fokuserar på att utvärdera laddningstid och användbarhet för tre utvalda webbplatser. Syftet är att identifiera och jämföra hur dessa webbplatser presterar i termer av hastighet och interaktion, vilket ger insikter i deras övergripande effektivitet och tillgänglighet.
 
 Urval
 -----------------------
 
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
+I denna analys kommer jag att fokusera på tre specifika webbplatser: Chalmers Tekniska Högskola, Blekinge Tekniska Högskola och Skatteverket. Valet av dessa webbplatser grundar sig på en önskan att undersöka och jämföra prestanda och användbarhet mellan akademiska institutioner och en statlig myndighet.
+### Motivering till urvalet:
+Akademiska Webbplatser: Chalmers Tekniska Högskola och Blekinge Tekniska Högskola representerar två av Sveriges framstående tekniska universitet. Deras webbplatser förväntas reflektera moderna webbdesignstandarder och vara optimerade för en mångsidig användargrupp, inklusive studenter, forskare och lärare. Genom att analysera dessa två webbplatser kan vi få insikter i hur högskolor använder webbdesign för att möta behoven hos en bred och mångfaldig publik.
+Statlig Myndighetswebbplats: Skatteverkets webbplats representerar en annan kategori av webbplatser med en betydande roll i det offentliga rummet. Som en myndighetswebbplats har den unika krav på tillgänglighet och informationstillhandahållande till allmänheten. Analysen av Skatteverkets webbplats ger en kontrast till de akademiska webbplatserna och visar hur en statlig myndighet hanterar sina digitala resurser.
+Denna jämförelse mellan akademiska institutioner och en statlig myndighet ger en bredare förståelse för hur olika organisationer tillämpar webbdesign och teknik för att uppfylla sina specifika mål och användargrupper.
+
 
 Metod
 -----------------------
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
+För att analysera webbplatsernas laddningstid och användbarhet kommer jag att använda Google PageSpeed Insights och webbläsarens DevTools. Dessa verktyg erbjuder omfattande data och insikter som hjälper till att bedöma webbplatsens prestanda och användarvänlighet.
+### PageSpeed Insights
+Användning: PageSpeed ger en detaljerad analys av hur snabbt en webbplats laddar på både mobila enheter och stationära datorer. Det ger en övergripande poäng baserad på flera faktorer som påverkar webbplatsens prestanda.
+Datainsamling: För varje webbplats kommer jag att registrera PageSpeed-poäng för både mobila och stationära versioner. Jag kommer också att notera specifika rekommendationer och varningar som PageSpeed ger, vilket kan ge insikter i potentiella förbättringsområden.
+### DevTools (Network Tab)
+Användning: DevTools Network-fliken ger en detaljerad tidsförlopp av sidans laddningsprocess. Den visar alla nätverksförfrågningar som webbsidan gör, inklusive filstorlekar och laddningstider.
+Datainsamling: Jag kommer att använda DevTools för att mäta total laddningstid, antalet resurser som laddas (till exempel bilder, CSS-filer, JavaScript-filer) och sidans totala storlek. För varje sida kommer jag att göra tre mätningar
 
 Resultat
 -----------------------
