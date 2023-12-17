@@ -10,7 +10,7 @@ Description: This is a gallery page
 
 ![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
 
-![White horse](image/imggallery/horse.png "White horse")
+![White horse](image/imgallery/horse.png "White horse")
 
 <!-- 
 
