@@ -3,9 +3,25 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px; 
     margin-bottom: 20px; 
+
+    h1 {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    .gallery-item {
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px; // Optional for styling
+        }
+    }
 }
 
-.gallerypage h1 {
-    grid-column: span 3;
-    justify-self: center;
+// Add responsive behavior for mobile
+@media (max-width: 767px) {
+    .gallerypage {
+        grid-template-columns: 1fr;
+    }
 }
