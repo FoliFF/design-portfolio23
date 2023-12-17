@@ -14,7 +14,7 @@ Template: gallery
 
 ![Pexels Ayna](%base_url%/image/imgallery/pexels-ayna.jpg "Pexels Ayna")
 
-![Blue Bird](%base_url%/image/imgallery/blue-bird.jpg?w=150&h=150 "Blue Bird")
+![Blue Bird](%base_url%/image/imgallery/blue-bird.jpg "Blue Bird")
 
 ![Horses](%base_url%/image/imgallery/horses.jpg "Horses")
 
