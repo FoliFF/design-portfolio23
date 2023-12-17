@@ -7,8 +7,8 @@
         <div class="gallerypage">
             {% for image in meta.gallery_images %}
                 <div class="gallery-item">
-                    <a href="https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imggallery/{{ image.url }}">
-                        <img src="https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imggallery/{{ image.thumbnail }}" alt="{{ image.alt }}">
+                    <a href="{{ base_url }}/image/imggallery/{{ image.url }}">
+                        <img src="{{ base_url }}/image/imggallery/{{ image.thumbnail }}" alt="{{ image.alt }}">
                     </a>
                 </div>
             {% endfor %}
