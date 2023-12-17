@@ -3,22 +3,40 @@ Title: Gallery
 Description: This is a gallery page
 Template: gallery
 ---
-# Gallery
+Gallery
+==========================
 
-![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
+<div class="box">
+  ![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
+</div>
 
-![White horse](%base_url%/image/imgallery/horse.jpg "White horse")
+<div class="box">
+  ![White horse](%base_url%/image/imgallery/horse.jpg "White horse")
+</div>
 
-![Yellow Bird](%base_url%/image/imgallery/yellow-bird.jpg "Yellow bird")
+<div class="box">
+  ![Yellow Bird](%base_url%/image/imgallery/yellow-bird.jpg "Yellow bird")
+</div>
 
-![Chrysanthemum Flower](%base_url%/image/imgallery/chrysanthemum.jpg "Chrysanthemum Flower")
+<div class="box">
+  ![Chrysanthemum Flower](%base_url%/image/imgallery/chrysanthemum.jpg "Chrysanthemum Flower")
+</div>
+<div class="box">
+  ![Pexels Ayna](%base_url%/image/imgallery/pexels-ayna.jpg "Pexels Ayna")
+</div>
 
-![Pexels Ayna](%base_url%/image/imgallery/pexels-ayna.jpg "Pexels Ayna")
+<div class="box">
+  ![Blue Bird](%base_url%/image/imgallery/blue-bird.jpg "Blue Bird")
+</div>
 
-![Blue Bird](%base_url%/image/imgallery/blue-bird.jpg "Blue Bird")
+<div class="box">
+  ![Horses](%base_url%/image/imgallery/horses.jpg "Horses")
+</div>
 
-![Horses](%base_url%/image/imgallery/horses.jpg "Horses")
+<div class="box">
+  ![Mountains](%base_url%/image/imgallery/mountains.jpg "Mountains")
+</div>
 
-![Mountains](%base_url%/image/imgallery/mountains.jpg "Mountains")
-
-![Pine Forest](%base_url%/image/imgallery/pine-forest.jpg "Pine forest")
+<div class="box">
+  ![Pine Forest](%base_url%/image/imgallery/pine-forest.jpg "Pine forest")
+</div>
