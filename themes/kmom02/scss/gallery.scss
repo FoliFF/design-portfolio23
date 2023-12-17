@@ -5,10 +5,6 @@
     margin-bottom: 20px; 
 }
 
-img {
-    border: solid 2px $border-color;
-}
-
 // Add responsive behavior for mobile
 @media (max-width: 767px) {
     .gallerypage {
