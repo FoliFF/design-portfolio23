@@ -1,6 +1,7 @@
 ---
 Title: Gallery
 Description: This is a gallery page
+Template: gallery
 ---
 # Gallery
 
