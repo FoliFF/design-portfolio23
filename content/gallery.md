@@ -15,18 +15,13 @@ Logo: image/imggallery/parrot-eating.png
 # Gallery
 
 
-![Eating Parrot](%base_url%/image/imggallery/parrot-eating.png "Parrot Eating")
-
-![Eating Parrot](%base_url%/assets/img/imgallery/parrot-eating.png "Parrot Eating")
+![Eating Parrot](https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png "Parrot Eating")
 
 ![Eating Parrot](%base_url%/image/imggallery/parrot-eating.png "Parrot Eating")
 
 ![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
 
 ![White horse](image/imggallery/horse.png "White horse")
-
-
-https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png
 
 <!-- 
 
