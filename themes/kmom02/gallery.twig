@@ -5,13 +5,11 @@
 
     <div class="main" role="main">
         <div class="gallerypage">
-            {% for image in meta.gallery_images %}
-                <div class="gallery-item">
-                    <a href="{{ base_url }}/image/imggallery/{{ image.url }}">
-                        <img src="{{ base_url }}/image/imggallery/{{ image.thumbnail }}" alt="{{ image.alt }}">
-                    </a>
-                </div>
-            {% endfor %}
+            <div class="gallery-item">
+                <a href="{{ base_url }}/image/imggallery/{{ image.url }}">
+                    <img src="{{ base_url }}/image/imggallery/{{ image.thumbnail }}" alt="{{ image.alt }}">
+                </a>
+            </div>
         </div>
     </div>
    

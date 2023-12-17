@@ -1,15 +1,6 @@
 ---
 Title: Gallery
 Description: This is a gallery page
-gallery_images:
-  - url: image/imggallery/parrot-eating.png
-    thumbnail: image/imggallery/parrot-eating.png
-    alt: Parrot eating
-  - url: imggallery/horse.jpg
-    thumbnail: imggallery/horse.jpg
-    alt: White horse
-
-Logo: image/imggallery/parrot-eating.png
 ---
 
 # Gallery
