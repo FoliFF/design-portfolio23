@@ -23,7 +23,7 @@ Logo: image/imggallery/parrot-eating.png
 
 ![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
 
-![White horse](%base_url%/image/imggallery/horse.png "White horse")
+![White horse](image/imggallery/horse.png "White horse")
 
 
 https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png
