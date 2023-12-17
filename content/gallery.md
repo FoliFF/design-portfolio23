@@ -47,13 +47,7 @@ Template: gallery
 </div>
 
 <div class="gallery-image">
-  <a href="%base_url%/image/imgallery/horses.jpg">
-    <img src="%base_url%/image/imgallery/horses.jpg" alt="Horses">
-  </a>
-</div>
-
-<div class="gallery-image">
-  <a href="%base_url%/image/imgallery/mountains.jpgg">
+  <a href="%base_url%/image/imgallery/mountains.jpg">
     <img src="%base_url%/image/imgallery/mountains.jpg" alt="mountains">
   </a>
 </div>
@@ -63,23 +57,3 @@ Template: gallery
     <img src="%base_url%/image/imgallery/pine-forest.jpg" alt="Pine Forest">
   </a>
 </div>
-
-<!-- 
-![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
-
-![White horse](%base_url%/image/imgallery/horse.jpg "White horse")
-
-![Yellow Bird](%base_url%/image/imgallery/yellow-bird.jpg "Yellow bird")
-
-![Chrysanthemum Flower](%base_url%/image/imgallery/chrysanthemum.jpg "Chrysanthemum Flower")
-
-![Pexels Ayna](%base_url%/image/imgallery/pexels-ayna.jpg "Pexels Ayna")
-
-![Blue Bird](%base_url%/image/imgallery/blue-bird.jpg "Blue Bird")
-
-![Horses](%base_url%/image/imgallery/horses.jpg "Horses")
-
-![Mountains](%base_url%/image/imgallery/mountains.jpg "Mountains")
-
-![Pine Forest](%base_url%/image/imgallery/pine-forest.jpg "Pine forest")
--->
