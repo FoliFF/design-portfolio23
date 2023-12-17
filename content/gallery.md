@@ -1,14 +1,13 @@
 ---
 Title: Gallery
 Description: This is a gallery page
+template: gallery
 ---
 # Gallery
 
 ![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
 
 ![White horse](%base_url%/image/imgallery/horse.jpg "White horse")
-
-![White horse](%base_url%/image/imgallery/horse.png "White horse")
 
 ![Yellow Bird](%base_url%/image/imgallery/yellow-bird.jpg "Yellow bird")
 
