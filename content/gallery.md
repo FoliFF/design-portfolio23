@@ -3,8 +3,6 @@ Title: Gallery
 Description: This is a gallery page
 Template: gallery
 ---
-Gallery
-==========================
 
 ![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
 
