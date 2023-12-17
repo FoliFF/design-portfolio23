@@ -2,9 +2,7 @@
 Title: Gallery
 Description: This is a gallery page
 ---
-
 # Gallery
-
 
 ![Eating Parrot](https://www.student.bth.se/~olja23/dbwebb-kurser/design/me/portfolio/image/imgallery/parrot-eating.png "Parrot Eating")
 
