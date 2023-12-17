@@ -8,7 +8,7 @@ Description: This is a gallery page
 
 ![Eating Parrot](%base_url%/image/imgallery/parrot-eating.png "Parrot Eating")
 
-![White horse](%base_url%/assets/img/imgallery/horse.jpg "White horse")
+![White horse](%base_url%/image/imgallery/horse.jpg "White horse")
 
 ![White horse](%base_url%/image/imgallery/horse.png "White horse")
 
