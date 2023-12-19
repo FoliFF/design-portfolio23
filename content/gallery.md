@@ -16,9 +16,9 @@ Template: gallery
 
 <div class="gallery-image">
   <a href="%base_url%/image/imgallery/horse.jpg">
-    <img src="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit&cx=0&cy=0.2" 
-      srcset="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit&cx=0&cy=0.2 300w,
-              %base_url%/image/imgallery/horse.jpg?w=600&h=350&crop-to-fit&cx=0&cy=0.2 600w"
+    <img src="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit" 
+      srcset="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit 300w,
+              %base_url%/image/imgallery/horse.jpg?w=600&h=350&crop-to-fit 600w"
       sizes="(max-width: 767px) 100vw, 33vw" 
       alt="White horse">
   </a>
@@ -46,9 +46,9 @@ Template: gallery
 
 <div class="gallery-image">
   <a href="%base_url%/image/imgallery/pexels-ayna.jpg">
-    <img src="%base_url%/image/imgallery/pexels-ayna.jpg?w=300&h=200&crop-to-fit&cx=0&cy=0.2" 
-      srcset="%base_url%/image/imgallery/pexels-ayna.jpg?w=300&h=200&crop-to-fit&cx=0&cy=0.2 300w,
-              %base_url%/image/imgallery/pexels-ayna.jpg?w=600&h=350&crop-to-fit&cx=0&cy=0.2 600w"
+    <img src="%base_url%/image/imgallery/pexels-ayna.jpg?w=300&h=200&crop-to-fit" 
+      srcset="%base_url%/image/imgallery/pexels-ayna.jpg?w=300&h=200&crop-to-fit 300w,
+              %base_url%/image/imgallery/pexels-ayna.jpg?w=600&h=350&crop-to-fit 600w"
       sizes="(max-width: 767px) 100vw, 33vw"
       alt="Pexels Ayna">
   </a>
