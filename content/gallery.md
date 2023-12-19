@@ -6,7 +6,11 @@ Template: gallery
 
 <div class="gallery-image">
   <a href="%base_url%/image/imgallery/parrot-eating.png">
-    <img src="%base_url%/image/imgallery/parrot-eating.png" alt="Parrot Eating">
+    <img src="%base_url%/image/imgallery/parrot-eating.png" 
+     srcset="%base_url%/image/imgallery/parrot-eating.png?w=300 300w,
+             %base_url%/image/imgallery/parrot-eating.png?w=600 600w"
+     sizes="(max-width: 767px) 100vw, 33vw"
+     alt="Parrot Eating">
   </a>
 </div>
 
