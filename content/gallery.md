@@ -15,8 +15,8 @@ Template: gallery
 </div>
 
 <div class="gallery-image">
-  <a href="%base_url%/image/imgallery/horse.jpg&height=175">
-    <img src="%base_url%/image/imgallery/horse.jpg&height=175" 
+  <a href="%base_url%/image/imgallery/horse.jpg">
+    <img src="%base_url%/image/imgallery/horse.jpg" 
       srcset="%base_url%/image/imgallery/horse.jpg?w=300 300w,
               %base_url%/image/imgallery/horse.jpg?w=600 600w"
       sizes="(max-width: 767px) 100vw, 33vw" 
@@ -45,8 +45,8 @@ Template: gallery
 </div>
 
 <div class="gallery-image">
-  <a href="%base_url%/image/imgallery/pexels-ayna.jpg&height=175">
-    <img src="%base_url%/image/imgallery/pexels-ayna.jpg&height=175" 
+  <a href="%base_url%/image/imgallery/pexels-ayna.jpg">
+    <img src="%base_url%/image/imgallery/pexels-ayna.jpg" 
       srcset="%base_url%/image/imgallery/pexels-ayna.jpg?w=300 300w,
               %base_url%/image/imgallery/pexels-ayna.jpg?w=600 600w"
       sizes="(max-width: 767px) 100vw, 33vw"
@@ -65,8 +65,8 @@ Template: gallery
 </div>
 
 <div class="gallery-image">
-  <a href="%base_url%/image/imgallery/horses.jpg&height=175">
-    <img src="%base_url%/image/imgallery/horses.jpg&height=175" 
+  <a href="%base_url%/image/imgallery/horses.jpg">
+    <img src="%base_url%/image/imgallery/horses.jpg" 
       srcset="%base_url%/image/imgallery/horses.jpg?w=300 300w,
               %base_url%/image/imgallery/horses.jpg?w=600 600w"
       sizes="(max-width: 767px) 100vw, 33vw"
