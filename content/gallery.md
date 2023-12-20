@@ -5,7 +5,7 @@ Template: gallery
 ---
 
 <div class="gallery-video">
-  <iframe width="300" height="200" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="The Throne" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="The Throne" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="gallery-image">
