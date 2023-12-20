@@ -4,6 +4,10 @@ Description: This is a gallery page
 Template: gallery
 ---
 
+<div class="gallery-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <div class="gallery-image">
   <a href="%base_url%/image/imgallery/parrot-eating.png">
     <img src="%base_url%/image/imgallery/parrot-eating.png?w=300&h=200&crop-to-fit" 
@@ -11,16 +15,6 @@ Template: gallery
               %base_url%/image/imgallery/parrot-eating.png?w=600&h=350&crop-to-fit 600w"
       sizes="(max-width: 767px) 100vw, 33vw"
       alt="Parrot Eating">
-  </a>
-</div>
-
-<div class="gallery-image">
-  <a href="%base_url%/image/imgallery/horse.jpg">
-    <img src="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit" 
-      srcset="%base_url%/image/imgallery/horse.jpg?w=300&h=200&crop-to-fit 300w,
-              %base_url%/image/imgallery/horse.jpg?w=600&h=350&crop-to-fit 600w"
-      sizes="(max-width: 767px) 100vw, 33vw" 
-      alt="White horse">
   </a>
 </div>
 

@@ -10,6 +10,14 @@
         height: auto;
         display: block;
     }
+
+    .gallery-video {
+        grid-column: span 3;
+        iframe {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 .gallery-image{
@@ -22,5 +30,9 @@
 @media (max-width: 767px) {
     .gallerypage {
         grid-template-columns: 1fr;
+    }
+
+    .gallery-video iframe {
+        height: calc(100vw * 9 / 16);
     }
 }
