@@ -4,7 +4,7 @@ Description: This is a gallery page
 Template: gallery
 ---
 
-<div class="gallery-video">
+<div class="embed-container">
   <iframe width="300" height="200" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="The Throne" frameborder="0" allowfullscreen></iframe>
 </div>
 
