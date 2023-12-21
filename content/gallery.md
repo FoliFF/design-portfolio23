@@ -4,10 +4,6 @@ Description: This is a gallery page
 Template: gallery
 ---
 
-<div class="embed-container">
-  <iframe width="300" height="200" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="The Throne" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <div class="gallery-image">
   <a href="%base_url%/image/imgallery/parrot-eating.png">
     <img src="%base_url%/image/imgallery/parrot-eating.png?w=300&h=200&crop-to-fit" 
@@ -16,6 +12,10 @@ Template: gallery
       sizes="(max-width: 767px) 100vw, 33vw"
       alt="Parrot Eating">
   </a>
+</div>
+
+<div class="embed-container">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/DVmdJtr5xZ4" title="The Throne" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="gallery-image">
