@@ -33,7 +33,7 @@ Resultat
 
 
 <div class="embed-container">
-  <iframe width="300" height="200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQv05aYqi2AwFz8-iwUuskk8EfDGk-dIY2xtLwQ0ESDB91TaYYzEQClTvIzqH7hVvHYT96y5WLY6sEH/pubhtml" title="Web result" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQv05aYqi2AwFz8-iwUuskk8EfDGk-dIY2xtLwQ0ESDB91TaYYzEQClTvIzqH7hVvHYT96y5WLY6sEH/pubhtml" title="Web result" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
