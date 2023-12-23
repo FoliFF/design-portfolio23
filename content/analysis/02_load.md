@@ -1,6 +1,6 @@
 ---
 Title: Load
-Description: Rapport for colors
+Description: Rapport för laddningstid.
 ---
 Load
 =======================
@@ -38,18 +38,17 @@ Resultat
 
 
 #### Chalmers Tekniska Högskola
-•	Mobil: PageSpeed Insights ger betyget 73 för prestanda med viktiga måttvärden som First Contentful Paint på 1,4 sekunder och Time to Interactive på 5,6 sekunder.
-•	Desktop: Prestationsbetyget är 94 med en First Contentful Paint på 0,5 sekunder och en snabb Time to Interactive på 1,5 sekunder.
-•	DevTools mätningar visade en genomsnittlig laddningstid på 603 ms med 32 resurser som laddas.
+ •	<strong>Mobil:</strong> PageSpeed Insights ger betyget 73 för prestanda. Viktiga mätvärden inkluderar Largest Contentful Paint (LCP) på 1,7 sekunder och Time to First Byte (TTFB) på 0,9 sekunder.
+•	<strong>Desktop:</strong> Prestationsbetyget är 94, med ett LCP på 0,9 sekunder och TTFB på 0,4 sekunder.
+•	<strong>DevTools:</strong> Mätningar visade att sidan laddar i genomsnitt på 635 ms med 80 resurser som laddas och en total storlek på 0,966 MB överförda data.
 #### Blekinge Tekniska Högskola
-•	Mobil: PageSpeed Insights visar 91 i prestanda med en First Contentful Paint på 0,7 sekunder.
-•	Desktop: Betyget för prestanda är 94 med en First Contentful Paint på 1,5 sekunder.
-•	DevTools: Genomsnittlig laddningstid är 564 ms för sidan med 42 resurser som laddas.
+•   <strong>Mobil:</strong> PageSpeed Insights visar ett prestandabetyg på 91, med ett LCP på 2,4 sekunder och ett TTFB på 1,6 sekunder.
+•   <strong>Desktop:</strong> Betyget för prestanda är 94, med ett LCP på 1,7 sekunder och ett TTFB på 1,3 sekunder.
+•   <strong>DevTools:</strong> Genomsnittlig laddningstid är 1,08 sekunder för sidan med 86 resurser som laddas och en total storlek på 2,2 MB överförda data.
 #### Skatteverket
-•	Mobil: Lågt prestandabetyg på 52 från PageSpeed Insights och en First Contentful Paint på 6,3 sekunder.
-•	Desktop: Prestationsbetyget förbättras till 72 med en First Contentful Paint på 1,8 sekunder.
-•	DevTools: Sidan laddas i genomsnitt på 547 ms med totalt 40 resurser.
-
+•   <strong>Mobil:</strong> Ett lågt prestandabetyg på 52 från PageSpeed Insights, med ett LCP på 2,2 sekunder och ett TTFB på 0,4 sekunder.
+•   <strong>Desktop:</strong> Prestationsbetyget ökar till 72, med ett LCP på 1,4 sekunder och ett TTFB på 0,2 sekunder.
+•   <strong>DevTools:</strong> Sidan laddas i genomsnitt på 657 ms med 42 resurser som laddas och en total storlek på 1,7 MB överförda data.
 
 Analys
 -----------------------
