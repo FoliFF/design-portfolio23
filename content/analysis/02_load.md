@@ -31,19 +31,44 @@ Datainsamling: Jag kommer att använda DevTools för att mäta total laddningsti
 Resultat
 -----------------------
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+
+<div class="embed-container">
+  <iframe width="300" height="200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQv05aYqi2AwFz8-iwUuskk8EfDGk-dIY2xtLwQ0ESDB91TaYYzEQClTvIzqH7hVvHYT96y5WLY6sEH/pubhtml" title="Web result" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+#### Chalmers Tekniska Högskola
+•	Mobil: PageSpeed Insights ger betyget 73 för prestanda med viktiga måttvärden som First Contentful Paint på 1,4 sekunder och Time to Interactive på 5,6 sekunder.
+•	Desktop: Prestationsbetyget är 94 med en First Contentful Paint på 0,5 sekunder och en snabb Time to Interactive på 1,5 sekunder.
+•	DevTools mätningar visade en genomsnittlig laddningstid på 603 ms med 32 resurser som laddas.
+#### Blekinge Tekniska Högskola
+•	Mobil: PageSpeed Insights visar 91 i prestanda med en First Contentful Paint på 0,7 sekunder.
+•	Desktop: Betyget för prestanda är 94 med en First Contentful Paint på 1,5 sekunder.
+•	DevTools: Genomsnittlig laddningstid är 564 ms för sidan med 42 resurser som laddas.
+#### Skatteverket
+•	Mobil: Lågt prestandabetyg på 52 från PageSpeed Insights och en First Contentful Paint på 6,3 sekunder.
+•	Desktop: Prestationsbetyget förbättras till 72 med en First Contentful Paint på 1,8 sekunder.
+•	DevTools: Sidan laddas i genomsnitt på 547 ms med totalt 40 resurser.
+
 
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
+Chalmers uppvisar hög prestanda på båda plattformarna, medan BTH visar större variation. BTHs mobila LCP är längre, vilket kan påverka användarupplevelsen. Chalmers är snabbare på desktop, vilket antyder bättre optimering för stationär användning.
+DevTools visar att Chalmers har kortare laddningstider och större datamängd, vilket kan indikera högkvalitativt innehåll. För BTH finns det utrymme för optimering baserat på mobila laddningstider.
+Skatteverket har längre LCP på mobil, vilket försenar synligt innehåll för användaren. Även om desktop-prestandan är bättre, behöver den synliga innehållsladdningen förbättras.
+Sammanfattningsvis kan användarupplevelsen på alla tre webbplatserna förbättras, särskilt för mobila användare. Regelbunden optimering är viktig för att möta användarförväntningarna om snabba laddningstider.
+DevTools Nätverkspanelens resultat bekräftar webbplatsens effektivitet med en snabb laddningstid och måttlig resursladdning. Dock kan den längre tiden för DOMContentLoaded-händelsen jämfört med den totala laddningstiden peka på möjlig JavaScript-exekvering som påverkar interaktiviteten.
+För att förbättra användarupplevelsen, särskilt på mobila enheter, bör fokus ligga på att minska LCP och noggrant granska JavaScript-exekveringen för potentiella optimeringar. Att minska resursstorlek och antal genom komprimering och försiktig skriptladdning kan leda till bättre prestandapoäng och ökad användarnöjdhet.
 
 Referenser
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
+Google Developers. (u.å.). Mät webbprestanda med Google Lighthouse. Hämtad från https://developers.google.com/web/tools/lighthouse
+
+Sidhastighet. PageSpeed Insights. Hämtad från https://pagespeed.web.dev/
 
 Övrigt
 -----------------------
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Rapporten är skriven, analyserad och dokumenterad av Olof Jansson. En student som läser på distans i Göteborgsregionen.
